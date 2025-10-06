@@ -1,5 +1,7 @@
 /*
  * Name: Ronald Chu and Jonah Reynolds
+ * CSCI306A
+ * 
  */
 
 

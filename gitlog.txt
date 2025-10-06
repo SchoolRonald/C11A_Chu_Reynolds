@@ -1,0 +1,21 @@
+I, Ronald Chu, certify that I participated equitably in the creation of assignment xxx, dated yyyy.
+I, Jonah Reynol, certify that I participated equitably in the creation of this assignment xxx, dated yyyy.
+
+
+commit 0c33ccf8dd02f6a9fdcd3c073c2d38ecc9442e2b
+Author: Ronald Chu <rchu@mines.edu>
+Date:   Mon Oct 6 13:04:23 2025 -0600
+
+    Added ATM class, and finalized code and comments
+
+commit e2c57ea9d5b5d9977e3837ebf279378fde84fdf3
+Author: Ronald Chu <rchu@mines.edu>
+Date:   Fri Oct 3 14:40:52 2025 -0600
+
+    Added comments to current code for BankAccount and NegativeBalanceException
+
+commit 6c0ee4127b14c02109499d4e2926ab88a602246f
+Author: Jonah Reynolds <jonahmr907@gmail.com>
+Date:   Fri Oct 3 12:59:37 2025 -0600
+
+    first commit decently finished and initialized classes

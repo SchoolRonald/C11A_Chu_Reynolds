@@ -1,5 +1,7 @@
 /*
  * Name: Ronald Chu and Jonah Reynolds
+ * CSCI306A
+ * 
  */
 
 
@@ -52,6 +54,5 @@ public class NegativeBalanceException extends Exception {
 	public String toString() {
 		return "Balance of " + negativeBalance + " not allowed";
 	}
-	
-	
+		
 }

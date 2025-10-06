@@ -1,6 +1,9 @@
+/*
+ * Name: Ronald Chu and Jonah Reynolds
+ */
+
+
 import java.io.*;
-
-
 
 public class NegativeBalanceException extends Exception {
 	
@@ -28,6 +31,7 @@ public class NegativeBalanceException extends Exception {
 		
 		//try and catch to make sure that logfile is printed out too
 		try {
+			
 			//declares and prints out the amount exceeds balance by [negative balance]
 			out = new PrintWriter("logfile.txt");
 			out.println("Amount Exceeds balance by " + this.negativeBalance);
@@ -46,7 +50,7 @@ public class NegativeBalanceException extends Exception {
 	//create a toString to print out the Balance of [negative balance] not allowed
 	@Override
 	public String toString() {
-		return "Balance of " + negativeBalance + "not allowed";
+		return "Balance of " + negativeBalance + " not allowed";
 	}
 	
 	

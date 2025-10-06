@@ -1,3 +1,6 @@
+/*
+ * Name: Ronald Chu and Jonah Reynolds
+ */
 
 
 
@@ -32,6 +35,8 @@ public class BankAccount {
 		
 		//if the amount withdrawn exceeds the balance, it will throw a NegativeBalanceException
 		if (amount > this.balance) {
+			
+			//doesn't know the balance
 			throw new NegativeBalanceException();
 		}
 		
